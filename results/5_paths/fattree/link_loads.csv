@@ -1,0 +1,161 @@
+scenario,link,utilization,class,class_name
+0,s0-s10,1.0000,3,Extremely High
+0,s0-s4,1.0000,3,Extremely High
+0,s0-s6,0.0478,0,Extremely Low
+0,s0-s8,0.1884,0,Extremely Low
+0,s1-s10,0.2159,0,Extremely Low
+0,s1-s4,0.3121,1,Low
+0,s1-s6,0.2460,0,Extremely Low
+0,s1-s8,0.0701,0,Extremely Low
+0,s10-s18,1.0000,3,Extremely High
+0,s10-s19,0.2247,0,Extremely Low
+0,s11-s18,0.8616,3,Extremely High
+0,s11-s19,0.1118,0,Extremely Low
+0,s2-s11,0.0728,0,Extremely Low
+0,s2-s5,0.0803,0,Extremely Low
+0,s2-s7,1.0811,3,Extremely High
+0,s2-s9,0.0858,0,Extremely Low
+0,s3-s11,0.2871,1,Low
+0,s3-s5,0.0786,0,Extremely Low
+0,s3-s7,0.2020,0,Extremely Low
+0,s3-s9,0.1135,0,Extremely Low
+0,s4-s12,1.0000,3,Extremely High
+0,s4-s13,0.0134,0,Extremely Low
+0,s5-s12,0.2351,0,Extremely Low
+0,s5-s13,0.4641,1,Low
+0,s6-s14,0.0949,0,Extremely Low
+0,s6-s15,0.1837,0,Extremely Low
+0,s7-s14,1.1569,3,Extremely High
+0,s7-s15,0.0521,0,Extremely Low
+0,s8-s16,0.2089,0,Extremely Low
+0,s8-s17,0.0459,0,Extremely Low
+0,s9-s16,0.1645,0,Extremely Low
+0,s9-s17,0.2060,0,Extremely Low
+1,s0-s10,1.0000,3,Extremely High
+1,s0-s4,1.0000,3,Extremely High
+1,s0-s6,0.0503,0,Extremely Low
+1,s0-s8,0.0246,0,Extremely Low
+1,s1-s10,0.0451,0,Extremely Low
+1,s1-s4,0.2460,0,Extremely Low
+1,s1-s6,0.3134,1,Low
+1,s1-s8,0.0528,0,Extremely Low
+1,s10-s18,1.0000,3,Extremely High
+1,s10-s19,0.0503,0,Extremely Low
+1,s11-s18,0.2391,0,Extremely Low
+1,s11-s19,0.2771,1,Low
+1,s2-s11,0.6140,2,High
+1,s2-s5,0.0177,0,Extremely Low
+1,s2-s7,0.2444,0,Extremely Low
+1,s2-s9,0.0944,0,Extremely Low
+1,s3-s11,0.0113,0,Extremely Low
+1,s3-s5,0.0311,0,Extremely Low
+1,s3-s7,0.0678,0,Extremely Low
+1,s3-s9,0.1795,0,Extremely Low
+1,s4-s12,1.0000,3,Extremely High
+1,s4-s13,0.1089,0,Extremely Low
+1,s5-s12,0.2008,0,Extremely Low
+1,s5-s13,0.1964,0,Extremely Low
+1,s6-s14,0.1011,0,Extremely Low
+1,s6-s15,0.0251,0,Extremely Low
+1,s7-s14,0.0261,0,Extremely Low
+1,s7-s15,0.1626,0,Extremely Low
+1,s8-s16,0.1003,0,Extremely Low
+1,s8-s17,1.0979,3,Extremely High
+1,s9-s16,0.0281,0,Extremely Low
+1,s9-s17,0.1340,0,Extremely Low
+2,s0-s10,1.0000,3,Extremely High
+2,s0-s4,1.0000,3,Extremely High
+2,s0-s6,0.1387,0,Extremely Low
+2,s0-s8,0.0299,0,Extremely Low
+2,s1-s10,0.3507,1,Low
+2,s1-s4,0.6044,2,High
+2,s1-s6,0.2474,0,Extremely Low
+2,s1-s8,0.0080,0,Extremely Low
+2,s10-s18,1.0000,3,Extremely High
+2,s10-s19,0.0386,0,Extremely Low
+2,s11-s18,0.1893,0,Extremely Low
+2,s11-s19,0.0055,0,Extremely Low
+2,s2-s11,0.1486,0,Extremely Low
+2,s2-s5,0.0590,0,Extremely Low
+2,s2-s7,0.0529,0,Extremely Low
+2,s2-s9,0.4817,1,Low
+2,s3-s11,0.1012,0,Extremely Low
+2,s3-s5,0.0336,0,Extremely Low
+2,s3-s7,0.1869,0,Extremely Low
+2,s3-s9,0.0868,0,Extremely Low
+2,s4-s12,1.0000,3,Extremely High
+2,s4-s13,0.7029,2,High
+2,s5-s12,0.1028,0,Extremely Low
+2,s5-s13,0.1773,0,Extremely Low
+2,s6-s14,0.0045,0,Extremely Low
+2,s6-s15,0.1591,0,Extremely Low
+2,s7-s14,0.0878,0,Extremely Low
+2,s7-s15,0.0145,0,Extremely Low
+2,s8-s16,0.0342,0,Extremely Low
+2,s8-s17,0.0809,0,Extremely Low
+2,s9-s16,0.2406,0,Extremely Low
+2,s9-s17,0.8009,3,Extremely High
+3,s0-s10,1.0000,3,Extremely High
+3,s0-s4,1.0000,3,Extremely High
+3,s0-s6,0.4308,1,Low
+3,s0-s8,0.1494,0,Extremely Low
+3,s1-s10,1.0827,3,Extremely High
+3,s1-s4,0.0352,0,Extremely Low
+3,s1-s6,0.4657,1,Low
+3,s1-s8,0.0287,0,Extremely Low
+3,s10-s18,1.0000,3,Extremely High
+3,s10-s19,0.2773,1,Low
+3,s11-s18,1.0845,3,Extremely High
+3,s11-s19,0.2094,0,Extremely Low
+3,s2-s11,0.1791,0,Extremely Low
+3,s2-s5,0.0338,0,Extremely Low
+3,s2-s7,0.5477,2,High
+3,s2-s9,0.1297,0,Extremely Low
+3,s3-s11,0.1414,0,Extremely Low
+3,s3-s5,0.8584,3,Extremely High
+3,s3-s7,0.0462,0,Extremely Low
+3,s3-s9,0.1593,0,Extremely Low
+3,s4-s12,1.0000,3,Extremely High
+3,s4-s13,0.1479,0,Extremely Low
+3,s5-s12,0.2452,0,Extremely Low
+3,s5-s13,0.0119,0,Extremely Low
+3,s6-s14,0.4872,1,Low
+3,s6-s15,0.9022,3,Extremely High
+3,s7-s14,0.1649,0,Extremely Low
+3,s7-s15,0.8182,3,Extremely High
+3,s8-s16,0.8123,3,Extremely High
+3,s8-s17,0.9399,3,Extremely High
+3,s9-s16,0.1654,0,Extremely Low
+3,s9-s17,0.1361,0,Extremely Low
+4,s0-s10,1.0000,3,Extremely High
+4,s0-s4,1.0000,3,Extremely High
+4,s0-s6,0.2093,0,Extremely Low
+4,s0-s8,0.1401,0,Extremely Low
+4,s1-s10,0.2062,0,Extremely Low
+4,s1-s4,0.0537,0,Extremely Low
+4,s1-s6,0.1229,0,Extremely Low
+4,s1-s8,0.2413,0,Extremely Low
+4,s10-s18,1.0000,3,Extremely High
+4,s10-s19,1.1082,3,Extremely High
+4,s11-s18,0.3757,1,Low
+4,s11-s19,0.0219,0,Extremely Low
+4,s2-s11,0.1968,0,Extremely Low
+4,s2-s5,0.1106,0,Extremely Low
+4,s2-s7,0.2001,0,Extremely Low
+4,s2-s9,0.2340,0,Extremely Low
+4,s3-s11,0.4028,1,Low
+4,s3-s5,0.1032,0,Extremely Low
+4,s3-s7,0.2165,0,Extremely Low
+4,s3-s9,0.2743,1,Low
+4,s4-s12,1.0000,3,Extremely High
+4,s4-s13,0.1496,0,Extremely Low
+4,s5-s12,0.1962,0,Extremely Low
+4,s5-s13,0.1434,0,Extremely Low
+4,s6-s14,0.1910,0,Extremely Low
+4,s6-s15,0.0803,0,Extremely Low
+4,s7-s14,0.2093,0,Extremely Low
+4,s7-s15,0.7918,2,High
+4,s8-s16,0.2462,0,Extremely Low
+4,s8-s17,0.0017,0,Extremely Low
+4,s9-s16,0.1102,0,Extremely Low
+4,s9-s17,0.1953,0,Extremely Low

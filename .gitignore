@@ -1,13 +1,12 @@
 .venv/
 __pycache__/
-
-# experiment run outputs
-output_*.txt
-output_*_video.json
-/sender.log
-/receiver.log
-
-# raw run data (videos, logs)
-results/baseline/
-results/extension/
-results/advanced/
+.pytest_cache/
+# received videos are large; every run keeps its scores
+received.ts
+psnr.log
+ssim.log
+# new data and quick checks (the report's datasets, models and runs are tracked)
+data/collected/
+results/quick_check*/
+airsdn_reproduction/results/runs/
+*.log.tmp

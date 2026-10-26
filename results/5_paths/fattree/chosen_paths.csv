@@ -1,0 +1,26 @@
+scenario,paradigm,chosen_path,hops,true_class,true_class_name,bottleneck_load,stage1_candidates,candidate_true_classes,candidate_predicted_classes
+0,hop_count,s12-s4-s0-s10-s18,4,3,Extremely High,1.0000,s12-s4-s0-s10-s18,Extremely High,
+0,latency,s12-s5-s2-s11-s18,4,3,Extremely High,0.8616,s12-s5-s2-s11-s18,Extremely High,
+0,bandwidth,s12-s5-s2-s11-s18,4,3,Extremely High,0.8616,s12-s5-s2-s11-s18,Extremely High,
+0,baseline,s12-s5-s2-s11-s18,4,3,Extremely High,0.8616,s12-s4-s0-s10-s18 | s12-s5-s2-s11-s18 | s12-s4-s1-s10-s18 | s12-s5-s3-s11-s18 | s12-s4-s0-s6-s1-s10-s18,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High,Extremely High | High | Extremely High | High | Extremely High
+0,proposed,s12-s5-s2-s11-s18,4,3,Extremely High,0.8616,s12-s5-s2-s11-s18 | s12-s5-s3-s11-s18 | s12-s5-s3-s9-s2-s11-s18 | s12-s5-s2-s9-s3-s11-s18 | s12-s5-s13-s4-s1-s10-s19-s11-s18,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High
+1,hop_count,s12-s4-s0-s10-s18,4,3,Extremely High,1.0000,s12-s4-s0-s10-s18,Extremely High,
+1,latency,s12-s5-s3-s11-s18,4,0,Extremely Low,0.2391,s12-s5-s3-s11-s18,Extremely Low,
+1,bandwidth,s12-s5-s3-s11-s18,4,0,Extremely Low,0.2391,s12-s5-s3-s11-s18,Extremely Low,
+1,baseline,s12-s5-s3-s11-s18,4,0,Extremely Low,0.2391,s12-s4-s0-s10-s18 | s12-s5-s2-s11-s18 | s12-s4-s1-s10-s18 | s12-s5-s3-s11-s18 | s12-s4-s0-s6-s1-s10-s18,Extremely High | High | Extremely High | Extremely Low | Extremely High,Extremely High | High | Extremely High | Extremely Low | Extremely High
+1,proposed,s12-s5-s3-s11-s18,4,0,Extremely Low,0.2391,s12-s5-s3-s11-s18 | s12-s5-s2-s11-s18 | s12-s5-s2-s9-s3-s11-s18 | s12-s5-s2-s7-s3-s11-s18 | s12-s5-s3-s9-s2-s11-s18,Extremely Low | High | Extremely Low | Extremely Low | High,Extremely Low | High | Extremely Low | Extremely Low | High
+2,hop_count,s12-s4-s0-s10-s18,4,3,Extremely High,1.0000,s12-s4-s0-s10-s18,Extremely High,
+2,latency,s12-s5-s3-s11-s18,4,0,Extremely Low,0.1893,s12-s5-s3-s11-s18,Extremely Low,
+2,bandwidth,s12-s5-s3-s11-s18,4,0,Extremely Low,0.1893,s12-s5-s3-s11-s18,Extremely Low,
+2,baseline,s12-s5-s3-s11-s18,4,0,Extremely Low,0.1893,s12-s4-s0-s10-s18 | s12-s5-s2-s11-s18 | s12-s4-s1-s10-s18 | s12-s5-s3-s11-s18 | s12-s4-s0-s6-s1-s10-s18,Extremely High | Extremely Low | Extremely High | Extremely Low | Extremely High,Extremely High | Extremely Low | Extremely High | Extremely Low | Extremely High
+2,proposed,s12-s5-s3-s11-s18,4,0,Extremely Low,0.1893,s12-s5-s3-s11-s18 | s12-s5-s2-s11-s18 | s12-s5-s2-s7-s3-s11-s18 | s12-s5-s3-s7-s2-s11-s18 | s12-s5-s2-s9-s3-s11-s18,Extremely Low | Extremely Low | Extremely Low | Extremely Low | Low,Extremely Low | Extremely Low | Extremely Low | Extremely Low | Low
+3,hop_count,s12-s4-s0-s10-s18,4,3,Extremely High,1.0000,s12-s4-s0-s10-s18,Extremely High,
+3,latency,s12-s5-s3-s11-s18,4,3,Extremely High,1.0845,s12-s5-s3-s11-s18,Extremely High,
+3,bandwidth,s12-s5-s2-s11-s18,4,3,Extremely High,1.0845,s12-s5-s2-s11-s18,Extremely High,
+3,baseline,s12-s5-s2-s11-s18,4,3,Extremely High,1.0845,s12-s4-s0-s10-s18 | s12-s5-s2-s11-s18 | s12-s4-s1-s10-s18 | s12-s5-s3-s11-s18 | s12-s4-s0-s6-s1-s10-s18,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High
+3,proposed,s12-s5-s2-s11-s18,4,3,Extremely High,1.0845,s12-s5-s2-s11-s18 | s12-s5-s2-s9-s3-s11-s18 | s12-s5-s2-s11-s19-s10-s18 | s12-s5-s2-s7-s3-s11-s18 | s12-s5-s2-s9-s3-s11-s19-s10-s18,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High,Extremely High | Extremely High | Extremely High | Extremely High | Extremely High
+4,hop_count,s12-s4-s0-s10-s18,4,3,Extremely High,1.0000,s12-s4-s0-s10-s18,Extremely High,
+4,latency,s12-s5-s2-s11-s18,4,1,Low,0.3757,s12-s5-s2-s11-s18,Low,
+4,bandwidth,s12-s5-s2-s11-s18,4,1,Low,0.3757,s12-s5-s2-s11-s18,Low,
+4,baseline,s12-s5-s2-s11-s18,4,1,Low,0.3757,s12-s4-s0-s10-s18 | s12-s5-s2-s11-s18 | s12-s4-s1-s10-s18 | s12-s5-s3-s11-s18 | s12-s4-s0-s6-s1-s10-s18,Extremely High | Low | Extremely High | Low | Extremely High,Extremely High | Low | Extremely High | Low | Extremely High
+4,proposed,s12-s5-s2-s11-s18,4,1,Low,0.3757,s12-s5-s2-s11-s18 | s12-s5-s3-s11-s18 | s12-s5-s3-s7-s2-s11-s18 | s12-s5-s3-s9-s2-s11-s18 | s12-s5-s2-s7-s3-s11-s18,Low | Low | Low | Low | Low,Low | Low | Low | Low | Low

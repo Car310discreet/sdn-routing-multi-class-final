@@ -3,7 +3,7 @@ profile_datasets.py - ydata-profiling (pandas profiling) reports of the two path
 Figs. 3 and the dataset statistics).
 
 Writes results/0_dataset_profiling/:
-    <topology>/<topology>_profile.html, .json   the full profiling reports (the timestamp column is dropped)
+    <topology>/<topology>_profile.html, .json   the full profiling reports, self-contained (timestamp column dropped)
     <topology>/charts/*.png                     the report's charts under readable names (histograms, correlation
                                                 and missing-value diagrams)
     <topology>/alerts.txt                       the profiler's alerts
@@ -15,6 +15,7 @@ Writes results/0_dataset_profiling/:
 """
 from __future__ import annotations
 
+import base64
 import csv
 import json
 import os
@@ -22,6 +23,7 @@ import re
 import shutil
 import sys
 import warnings
+from urllib.parse import unquote
 
 import matplotlib
 
@@ -49,7 +51,7 @@ def profile(topology: str, title: str) -> dict:
     df = df.drop(columns=["time"])          # wall-clock timestamp: not a property of the paths
     report = ProfileReport(df, title=title, explorative=True, progress_bar=False,
                            plot={"image_format": "png", "dpi": 200},
-                           html={"inline": False, "assets_prefix": f"{topology}_assets"},
+                           html={"inline": True},
                            correlations={"pearson": {"calculate": True}, "spearman": {"calculate": True},
                                          "auto": {"calculate": True}},
                            interactions={"continuous": False})
@@ -71,13 +73,13 @@ def profile(topology: str, title: str) -> dict:
 
 
 def extract_charts(directory: str, html_path: str) -> None:
-    """Copy the report's PNG charts to charts/ under names derived from the HTML around each image."""
+    """Save the report's embedded PNG charts to charts/ under names derived from the HTML around each image."""
     html = open(html_path).read()
     charts = os.path.join(directory, "charts")
     os.makedirs(charts, exist_ok=True)
     seen = set()
-    for match in re.finditer(r'<img([^>]*)src="?([^" >]+\.png)', html):
-        attrs, src = match.group(1), match.group(2)
+    for match in re.finditer(r'<img([^>]*)src="?data:image/png;base64,([A-Za-z0-9+/=%]+)', html):
+        attrs, png = match.group(1), match.group(2)
         alt = (re.search(r'alt="?([^">]+?)"?(?:\s|$)', attrs) or [None, ""])[1].strip()
         if "Mini" in alt:
             continue
@@ -101,7 +103,8 @@ def extract_charts(directory: str, html_path: str) -> None:
             i += 1
             name = f"{base}_{i}"
         seen.add(name)
-        shutil.copyfile(os.path.join(directory, src), os.path.join(charts, f"{name}.png"))
+        with open(os.path.join(charts, f"{name}.png"), "wb") as handle:
+            handle.write(base64.b64decode(unquote(png)))   # URL-encoded base64
 
 
 def correlation_figure() -> None:

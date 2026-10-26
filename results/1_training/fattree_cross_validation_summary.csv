@@ -1,0 +1,6 @@
+model,macro_f1_mean,macro_f1_std,log_loss_mean,log_loss_std
+Ensemble (soft vote),0.9676,0.0111,0.1555,0.0389
+Gradient Boosting,0.9634,0.014,0.1869,0.0838
+Random Forest,0.9647,0.0116,0.291,0.1595
+SVM,0.9259,0.0172,0.3133,0.0541
+XGBoost,0.9627,0.0121,0.1599,0.0501
