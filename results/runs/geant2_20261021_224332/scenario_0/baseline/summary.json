@@ -1,0 +1,16 @@
+{
+  "paradigm": "baseline",
+  "duration_s": 67.32,
+  "mean_rtt_ms": 1205.392,
+  "mean_jitter_ms": 14.73,
+  "mean_throughput_mbps": 4.118,
+  "packets_sent": 27745,
+  "packets_received": 25226,
+  "packet_loss_pct": 9.079,
+  "frames_reference": 4007,
+  "frames_decoded": 3512,
+  "psnr_db": 17.590595,
+  "ssim": 0.810722,
+  "psnr_frame_mean_db": 21.497,
+  "ssim_frame_mean": 0.811
+}

@@ -1,0 +1,3 @@
+topology,rows,variables,missing_cells,duplicate_rows,alerts
+geant2,500,18,0,0,21
+fattree,896,18,0,0,18

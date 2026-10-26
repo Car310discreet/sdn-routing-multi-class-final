@@ -1,0 +1,1073 @@
+{
+  "topology": "fattree",
+  "sender": "h12",
+  "receiver": "h18",
+  "args": {
+    "topology": "fattree",
+    "paradigms": [
+      "hop_count",
+      "latency",
+      "bandwidth",
+      "baseline",
+      "proposed"
+    ],
+    "stage1_method": "composite",
+    "k_paths": 5,
+    "hop_slack": 4,
+    "alpha": 0.3,
+    "beta": 0.1,
+    "gamma": 0.4,
+    "delta": 0.2,
+    "model": "ensemble",
+    "model_path": "/home/anshul/Documents/Anshul/coding/projects/SDN-routing-multi-class/advanced/models/fattree_bundle.joblib",
+    "scenarios": 5,
+    "seed": 1000,
+    "congest_default_path": true,
+    "warmup": 10.0,
+    "telemetry_samples": 6,
+    "telemetry_interval": 2.5,
+    "delay_range": null,
+    "video": "/home/anshul/Documents/Anshul/coding/projects/SDN-routing-multi-class/assets/surreal.ts",
+    "controller_url": "http://127.0.0.1:8080",
+    "out": "/home/anshul/Documents/Anshul/coding/projects/SDN-routing-multi-class/results/advanced",
+    "resume": null,
+    "first_scenario": 0,
+    "benchmark_only": false,
+    "trials": 20
+  },
+  "model": "ensemble",
+  "model_path": "/home/anshul/Documents/Anshul/coding/projects/SDN-routing-multi-class/advanced/models/fattree_bundle.joblib",
+  "scenarios": {
+    "0": {
+      "seed": 1000,
+      "paradigms": {
+        "hop_count": {
+          "summary": {
+            "paradigm": "hop_count",
+            "duration_s": 67.08,
+            "mean_rtt_ms": 8646.067,
+            "mean_jitter_ms": 10.344,
+            "mean_throughput_mbps": 0.951,
+            "packets_sent": 27732,
+            "packets_received": 6030,
+            "packet_loss_pct": 78.256,
+            "frames_reference": 4007,
+            "frames_decoded": 1413,
+            "psnr_db": 15.137219,
+            "ssim": 0.751366,
+            "psnr_frame_mean_db": 16.304,
+            "ssim_frame_mean": 0.751
+          },
+          "chosen_path": [
+            "s12",
+            "s4",
+            "s0",
+            "s10",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 0.0,
+            "stage1_ms": 0.5472,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 228.067
+          }
+        },
+        "latency": {
+          "summary": {
+            "paradigm": "latency",
+            "duration_s": 67.08,
+            "mean_rtt_ms": 1225.898,
+            "mean_jitter_ms": 13.157,
+            "mean_throughput_mbps": 3.95,
+            "packets_sent": 27744,
+            "packets_received": 23911,
+            "packet_loss_pct": 13.816,
+            "frames_reference": 4007,
+            "frames_decoded": 3587,
+            "psnr_db": 16.648707,
+            "ssim": 0.777748,
+            "psnr_frame_mean_db": 19.262,
+            "ssim_frame_mean": 0.778
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.8616,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 19.03,
+            "stage1_ms": 7.0814,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 229.719
+          }
+        },
+        "bandwidth": {
+          "summary": {
+            "paradigm": "bandwidth",
+            "duration_s": 67.16,
+            "mean_rtt_ms": 1223.98,
+            "mean_jitter_ms": 13.221,
+            "mean_throughput_mbps": 4.007,
+            "packets_sent": 27744,
+            "packets_received": 24555,
+            "packet_loss_pct": 11.494,
+            "frames_reference": 4007,
+            "frames_decoded": 3629,
+            "psnr_db": 16.487784,
+            "ssim": 0.775337,
+            "psnr_frame_mean_db": 19.177,
+            "ssim_frame_mean": 0.775
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.8616,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 19.0,
+            "stage1_ms": 1.3202,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 206.426
+          }
+        },
+        "baseline": {
+          "summary": {
+            "paradigm": "baseline",
+            "duration_s": 67.28,
+            "mean_rtt_ms": 1222.042,
+            "mean_jitter_ms": 14.178,
+            "mean_throughput_mbps": 3.944,
+            "packets_sent": 27744,
+            "packets_received": 24138,
+            "packet_loss_pct": 12.997,
+            "frames_reference": 4007,
+            "frames_decoded": 3581,
+            "psnr_db": 16.656687,
+            "ssim": 0.776831,
+            "psnr_frame_mean_db": 19.125,
+            "ssim_frame_mean": 0.777
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.8616,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 21.58,
+            "stage1_ms": 9.4773,
+            "stage2_inference_ms": 354.4871,
+            "stage2_probe_s": 152.73,
+            "probe_install_ms": 2456.1801,
+            "probe_remove_ms": 3291.7137,
+            "ping_s": 28.0131,
+            "iperf_s": 114.7186,
+            "drain_s": 10.0024,
+            "assembly_ms": 0.1672,
+            "inference_ms": 354.4871,
+            "select_ms": 0.0069,
+            "route_install_ms": 210.038
+          }
+        },
+        "proposed": {
+          "summary": {
+            "paradigm": "proposed",
+            "duration_s": 67.13,
+            "mean_rtt_ms": 1227.333,
+            "mean_jitter_ms": 14.108,
+            "mean_throughput_mbps": 4.003,
+            "packets_sent": 27744,
+            "packets_received": 24271,
+            "packet_loss_pct": 12.518,
+            "frames_reference": 4007,
+            "frames_decoded": 3516,
+            "psnr_db": 16.875036,
+            "ssim": 0.779087,
+            "psnr_frame_mean_db": 19.344,
+            "ssim_frame_mean": 0.779
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.8616,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 19.03,
+            "stage1_ms": 8.3964,
+            "stage2_inference_ms": 294.7815,
+            "stage2_probe_s": 61.46,
+            "probe_install_ms": 3131.1681,
+            "probe_remove_ms": 4571.9046,
+            "ping_s": 13.4039,
+            "iperf_s": 38.0561,
+            "drain_s": 10.0064,
+            "assembly_ms": 0.1424,
+            "inference_ms": 294.7815,
+            "select_ms": 0.0065,
+            "route_install_ms": 257.451
+          }
+        }
+      }
+    },
+    "1": {
+      "seed": 1001,
+      "paradigms": {
+        "hop_count": {
+          "summary": {
+            "paradigm": "hop_count",
+            "duration_s": 66.86,
+            "mean_rtt_ms": 8359.947,
+            "mean_jitter_ms": 10.459,
+            "mean_throughput_mbps": 0.938,
+            "packets_sent": 27722,
+            "packets_received": 6028,
+            "packet_loss_pct": 78.256,
+            "frames_reference": 4007,
+            "frames_decoded": 1489,
+            "psnr_db": 14.289459,
+            "ssim": 0.729085,
+            "psnr_frame_mean_db": 15.611,
+            "ssim_frame_mean": 0.729
+          },
+          "chosen_path": [
+            "s12",
+            "s4",
+            "s0",
+            "s10",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 0.0,
+            "stage1_ms": 0.4866,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 239.814
+          }
+        },
+        "latency": {
+          "summary": {
+            "paradigm": "latency",
+            "duration_s": 67.03,
+            "mean_rtt_ms": 96.345,
+            "mean_jitter_ms": 13.515,
+            "mean_throughput_mbps": 4.627,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.2391,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 18.95,
+            "stage1_ms": 0.3511,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 206.331
+          }
+        },
+        "bandwidth": {
+          "summary": {
+            "paradigm": "bandwidth",
+            "duration_s": 67.11,
+            "mean_rtt_ms": 105.033,
+            "mean_jitter_ms": 13.51,
+            "mean_throughput_mbps": 4.632,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.2391,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.7,
+            "stage1_ms": 1.2029,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 206.519
+          }
+        },
+        "baseline": {
+          "summary": {
+            "paradigm": "baseline",
+            "duration_s": 67.16,
+            "mean_rtt_ms": 93.004,
+            "mean_jitter_ms": 12.388,
+            "mean_throughput_mbps": 4.622,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.2391,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.06,
+            "stage1_ms": 5.4209,
+            "stage2_inference_ms": 370.0646,
+            "stage2_probe_s": 139.58,
+            "probe_install_ms": 2315.2096,
+            "probe_remove_ms": 2307.2237,
+            "ping_s": 27.8527,
+            "iperf_s": 101.7098,
+            "drain_s": 10.0144,
+            "assembly_ms": 0.1362,
+            "inference_ms": 370.0646,
+            "select_ms": 0.0058,
+            "route_install_ms": 221.218
+          }
+        },
+        "proposed": {
+          "summary": {
+            "paradigm": "proposed",
+            "duration_s": 67.13,
+            "mean_rtt_ms": 94.381,
+            "mean_jitter_ms": 12.63,
+            "mean_throughput_mbps": 4.641,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.2391,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 20.13,
+            "stage1_ms": 10.2137,
+            "stage2_inference_ms": 343.4277,
+            "stage2_probe_s": 60.29,
+            "probe_install_ms": 2949.1005,
+            "probe_remove_ms": 4101.6874,
+            "ping_s": 13.191,
+            "iperf_s": 37.1087,
+            "drain_s": 10.0007,
+            "assembly_ms": 0.138,
+            "inference_ms": 343.4277,
+            "select_ms": 0.0053,
+            "route_install_ms": 206.416
+          }
+        }
+      }
+    },
+    "2": {
+      "seed": 1002,
+      "paradigms": {
+        "hop_count": {
+          "summary": {
+            "paradigm": "hop_count",
+            "duration_s": 66.98,
+            "mean_rtt_ms": 8690.556,
+            "mean_jitter_ms": 9.388,
+            "mean_throughput_mbps": 0.914,
+            "packets_sent": 27729,
+            "packets_received": 5634,
+            "packet_loss_pct": 79.682,
+            "frames_reference": 4007,
+            "frames_decoded": 1387,
+            "psnr_db": 14.859723,
+            "ssim": 0.749323,
+            "psnr_frame_mean_db": 16.176,
+            "ssim_frame_mean": 0.749
+          },
+          "chosen_path": [
+            "s12",
+            "s4",
+            "s0",
+            "s10",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 0.0,
+            "stage1_ms": 0.476,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 1197.212
+          }
+        },
+        "latency": {
+          "summary": {
+            "paradigm": "latency",
+            "duration_s": 67.06,
+            "mean_rtt_ms": 95.604,
+            "mean_jitter_ms": 11.482,
+            "mean_throughput_mbps": 4.628,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.1893,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.01,
+            "stage1_ms": 5.1517,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 225.391
+          }
+        },
+        "bandwidth": {
+          "summary": {
+            "paradigm": "bandwidth",
+            "duration_s": 66.89,
+            "mean_rtt_ms": 108.553,
+            "mean_jitter_ms": 13.195,
+            "mean_throughput_mbps": 4.643,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.1893,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.84,
+            "stage1_ms": 1.6887,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 198.505
+          }
+        },
+        "baseline": {
+          "summary": {
+            "paradigm": "baseline",
+            "duration_s": 67.07,
+            "mean_rtt_ms": 110.083,
+            "mean_jitter_ms": 11.25,
+            "mean_throughput_mbps": 4.647,
+            "packets_sent": 27745,
+            "packets_received": 27745,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.1893,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.58,
+            "stage1_ms": 1.6678,
+            "stage2_inference_ms": 295.4696,
+            "stage2_probe_s": 158.35,
+            "probe_install_ms": 2652.2657,
+            "probe_remove_ms": 2467.7804,
+            "ping_s": 27.8346,
+            "iperf_s": 120.5131,
+            "drain_s": 10.0034,
+            "assembly_ms": 1.0136,
+            "inference_ms": 295.4696,
+            "select_ms": 0.0058,
+            "route_install_ms": 206.632
+          }
+        },
+        "proposed": {
+          "summary": {
+            "paradigm": "proposed",
+            "duration_s": 67.64,
+            "mean_rtt_ms": 101.138,
+            "mean_jitter_ms": 12.095,
+            "mean_throughput_mbps": 4.611,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.1893,
+            "class": 0,
+            "class_name": "Extremely Low"
+          },
+          "timing": {
+            "telemetry_s": 19.77,
+            "stage1_ms": 9.7145,
+            "stage2_inference_ms": 380.8005,
+            "stage2_probe_s": 59.72,
+            "probe_install_ms": 3076.5549,
+            "probe_remove_ms": 2910.5603,
+            "ping_s": 13.1472,
+            "iperf_s": 36.5587,
+            "drain_s": 10.0089,
+            "assembly_ms": 0.6821,
+            "inference_ms": 380.8005,
+            "select_ms": 0.0056,
+            "route_install_ms": 219.337
+          }
+        }
+      }
+    },
+    "3": {
+      "seed": 1003,
+      "paradigms": {
+        "hop_count": {
+          "summary": {
+            "paradigm": "hop_count",
+            "duration_s": 66.72,
+            "mean_rtt_ms": 8622.182,
+            "mean_jitter_ms": 10.865,
+            "mean_throughput_mbps": 1.046,
+            "packets_sent": 27726,
+            "packets_received": 6470,
+            "packet_loss_pct": 76.665,
+            "frames_reference": 4007,
+            "frames_decoded": 1517,
+            "psnr_db": 15.244452,
+            "ssim": 0.752294,
+            "psnr_frame_mean_db": 16.389,
+            "ssim_frame_mean": 0.752
+          },
+          "chosen_path": [
+            "s12",
+            "s4",
+            "s0",
+            "s10",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 0.0,
+            "stage1_ms": 0.5214,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 191.274
+          }
+        },
+        "latency": {
+          "summary": {
+            "paradigm": "latency",
+            "duration_s": 67.03,
+            "mean_rtt_ms": 3544.125,
+            "mean_jitter_ms": 15.353,
+            "mean_throughput_mbps": 3.23,
+            "packets_sent": 27733,
+            "packets_received": 20223,
+            "packet_loss_pct": 27.08,
+            "frames_reference": 4007,
+            "frames_decoded": 2734,
+            "psnr_db": 15.269954,
+            "ssim": 0.740764,
+            "psnr_frame_mean_db": 15.76,
+            "ssim_frame_mean": 0.741
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s3",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0845,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 19.43,
+            "stage1_ms": 0.5213,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 246.708
+          }
+        },
+        "bandwidth": {
+          "summary": {
+            "paradigm": "bandwidth",
+            "duration_s": 67.05,
+            "mean_rtt_ms": 2425.027,
+            "mean_jitter_ms": 13.435,
+            "mean_throughput_mbps": 3.593,
+            "packets_sent": 27733,
+            "packets_received": 21747,
+            "packet_loss_pct": 21.584,
+            "frames_reference": 4007,
+            "frames_decoded": 2840,
+            "psnr_db": 15.331654,
+            "ssim": 0.734569,
+            "psnr_frame_mean_db": 15.858,
+            "ssim_frame_mean": 0.735
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0845,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 19.04,
+            "stage1_ms": 7.3601,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 204.802
+          }
+        },
+        "baseline": {
+          "summary": {
+            "paradigm": "baseline",
+            "duration_s": 66.94,
+            "mean_rtt_ms": 2414.538,
+            "mean_jitter_ms": 12.648,
+            "mean_throughput_mbps": 3.827,
+            "packets_sent": 27736,
+            "packets_received": 23189,
+            "packet_loss_pct": 16.394,
+            "frames_reference": 4007,
+            "frames_decoded": 3073,
+            "psnr_db": 15.784143,
+            "ssim": 0.747164,
+            "psnr_frame_mean_db": 16.247,
+            "ssim_frame_mean": 0.747
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0845,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 18.97,
+            "stage1_ms": 7.9994,
+            "stage2_inference_ms": 391.6603,
+            "stage2_probe_s": 215.39,
+            "probe_install_ms": 3472.7862,
+            "probe_remove_ms": 2366.0409,
+            "ping_s": 37.5365,
+            "iperf_s": 167.8323,
+            "drain_s": 10.0182,
+            "assembly_ms": 2.9979,
+            "inference_ms": 391.6603,
+            "select_ms": 0.0057,
+            "route_install_ms": 212.862
+          }
+        },
+        "proposed": {
+          "summary": {
+            "paradigm": "proposed",
+            "duration_s": 66.6,
+            "mean_rtt_ms": 2414.613,
+            "mean_jitter_ms": 13.263,
+            "mean_throughput_mbps": 3.689,
+            "packets_sent": 27733,
+            "packets_received": 22051,
+            "packet_loss_pct": 20.488,
+            "frames_reference": 4007,
+            "frames_decoded": 2856,
+            "psnr_db": 14.042081,
+            "ssim": 0.69101,
+            "psnr_frame_mean_db": 14.359,
+            "ssim_frame_mean": 0.691
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0845,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 20.05,
+            "stage1_ms": 20.5146,
+            "stage2_inference_ms": 344.2331,
+            "stage2_probe_s": 215.24,
+            "probe_install_ms": 3137.0846,
+            "probe_remove_ms": 3094.0998,
+            "ping_s": 37.445,
+            "iperf_s": 167.7896,
+            "drain_s": 10.0102,
+            "assembly_ms": 0.143,
+            "inference_ms": 344.2331,
+            "select_ms": 0.0052,
+            "route_install_ms": 245.898
+          }
+        }
+      }
+    },
+    "4": {
+      "seed": 1004,
+      "paradigms": {
+        "hop_count": {
+          "summary": {
+            "paradigm": "hop_count",
+            "duration_s": 67.25,
+            "mean_rtt_ms": 8716.7,
+            "mean_jitter_ms": 11.067,
+            "mean_throughput_mbps": 0.936,
+            "packets_sent": 27720,
+            "packets_received": 5863,
+            "packet_loss_pct": 78.849,
+            "frames_reference": 4007,
+            "frames_decoded": 1550,
+            "psnr_db": 14.998232,
+            "ssim": 0.748849,
+            "psnr_frame_mean_db": 16.154,
+            "ssim_frame_mean": 0.749
+          },
+          "chosen_path": [
+            "s12",
+            "s4",
+            "s0",
+            "s10",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 1.0,
+            "class": 3,
+            "class_name": "Extremely High"
+          },
+          "timing": {
+            "telemetry_s": 0.0,
+            "stage1_ms": 4.1794,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 198.284
+          }
+        },
+        "latency": {
+          "summary": {
+            "paradigm": "latency",
+            "duration_s": 67.01,
+            "mean_rtt_ms": 132.525,
+            "mean_jitter_ms": 15.879,
+            "mean_throughput_mbps": 4.621,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.3757,
+            "class": 1,
+            "class_name": "Low"
+          },
+          "timing": {
+            "telemetry_s": 20.02,
+            "stage1_ms": 0.2925,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 222.342
+          }
+        },
+        "bandwidth": {
+          "summary": {
+            "paradigm": "bandwidth",
+            "duration_s": 67.33,
+            "mean_rtt_ms": 127.957,
+            "mean_jitter_ms": 16.287,
+            "mean_throughput_mbps": 4.626,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.3757,
+            "class": 1,
+            "class_name": "Low"
+          },
+          "timing": {
+            "telemetry_s": 18.92,
+            "stage1_ms": 4.5863,
+            "stage2_inference_ms": 0.0,
+            "stage2_probe_s": 0.0,
+            "route_install_ms": 196.785
+          }
+        },
+        "baseline": {
+          "summary": {
+            "paradigm": "baseline",
+            "duration_s": 67.27,
+            "mean_rtt_ms": 127.048,
+            "mean_jitter_ms": 15.685,
+            "mean_throughput_mbps": 4.607,
+            "packets_sent": 27746,
+            "packets_received": 27746,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.3757,
+            "class": 1,
+            "class_name": "Low"
+          },
+          "timing": {
+            "telemetry_s": 19.58,
+            "stage1_ms": 0.9069,
+            "stage2_inference_ms": 440.5718,
+            "stage2_probe_s": 153.43,
+            "probe_install_ms": 2483.7679,
+            "probe_remove_ms": 3910.2464,
+            "ping_s": 27.8701,
+            "iperf_s": 115.5365,
+            "drain_s": 10.0076,
+            "assembly_ms": 0.9969,
+            "inference_ms": 440.5718,
+            "select_ms": 0.0058,
+            "route_install_ms": 263.595
+          }
+        },
+        "proposed": {
+          "summary": {
+            "paradigm": "proposed",
+            "duration_s": 66.81,
+            "mean_rtt_ms": 122.527,
+            "mean_jitter_ms": 14.647,
+            "mean_throughput_mbps": 4.626,
+            "packets_sent": 27744,
+            "packets_received": 27744,
+            "packet_loss_pct": 0.0,
+            "frames_reference": 4007,
+            "frames_decoded": 3968,
+            "psnr_db": 38.427967,
+            "ssim": 0.997639,
+            "psnr_frame_mean_db": 59.633,
+            "ssim_frame_mean": 0.998
+          },
+          "chosen_path": [
+            "s12",
+            "s5",
+            "s2",
+            "s11",
+            "s18"
+          ],
+          "chosen_ground_truth": {
+            "bottleneck_load": 0.3757,
+            "class": 1,
+            "class_name": "Low"
+          },
+          "timing": {
+            "telemetry_s": 19.05,
+            "stage1_ms": 12.534,
+            "stage2_inference_ms": 282.177,
+            "stage2_probe_s": 59.35,
+            "probe_install_ms": 2862.3853,
+            "probe_remove_ms": 3420.1017,
+            "ping_s": 13.1008,
+            "iperf_s": 36.2351,
+            "drain_s": 10.0143,
+            "assembly_ms": 0.1373,
+            "inference_ms": 282.177,
+            "select_ms": 0.0056,
+            "route_install_ms": 217.575
+          }
+        }
+      }
+    }
+  },
+  "note": "method keys renamed for this repository: qos_aware -> latency, hop_ml -> baseline, advanced -> proposed; measurements unchanged"
+}

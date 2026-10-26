@@ -1,0 +1,4 @@
+approach,mean_rtt_ms,ping_loss_pct,mean_throughput_mbps,psnr_db,ssim,frames_received
+Hop-count,1830.309,8.33333,0.21,20.400793,0.873642,4007
+QoS-aware,1896.093,10.0,6.641,38.111196,0.997302,4007
+AIRSDN,351.467,0.0,6.519,38.107837,0.997291,4007

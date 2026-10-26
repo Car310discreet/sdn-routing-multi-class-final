@@ -1,0 +1,2555 @@
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 415500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 424500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 427500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 432000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 435000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 438000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 442500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 444000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 447000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 448500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 451500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 462000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 465000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 469500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 472500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 478500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 480000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 486000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 487500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 490500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 492000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 499500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 501000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 510000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 514500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 517500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 522000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 529500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 531000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 537000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 538500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 544500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 552000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 559500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 567000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 576000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 577500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 580500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 583500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 595500).
+Input #0, mpegts, from 'udp://10.0.0.19:1234':
+  Duration: N/A, start: 1.416667, bitrate: N/A
+  Program 1 
+    Metadata:
+      service_name    : Service01
+      service_provider: FFmpeg
+  Stream #0:0[0x100]: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709, progressive), 1920x1048 [SAR 1:1 DAR 240:131], 60 fps, 60 tbr, 90k tbn
+Output #0, mpegts, to '/home/anshul/Documents/Anshul/coding/projects/SDN-routing-multi-class/results/advanced/fattree_20261021_235820/scenario_0/bandwidth/received.ts':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709, progressive), 1920x1048 [SAR 1:1 DAR 240:131], q=2-31, 60 fps, 60 tbr, 90k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Press [q] to stop, [?] for help
+size=       0kB time=-00:00:00.01 bitrate=  -0.0kbits/s speed=N/A    [in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 9 times
+[mpegts @ 0x5dfdd050c880] Timestamps are unset in a packet for stream 0. This is deprecated and will stop working in the future. Fix your code to set the timestamps properly
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 35 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 606000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 607500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 610500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 615000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 627000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 630000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 631500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 634500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 640500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 648000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    2816kB time=00:00:05.78 bitrate=3988.8kbits/s speed=  11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 654000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 660000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 663000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 667500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 669000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 675000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 679500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 682500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 690000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    3072kB time=00:00:06.30 bitrate=3994.6kbits/s speed=6.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 697500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 702000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 705000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 712500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 726000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 727500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 730500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 732000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 733500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    3072kB time=00:00:06.80 bitrate=3700.9kbits/s speed= 4.4x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 747000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 754500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 762000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 769500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 777000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    3328kB time=00:00:07.33 bitrate=3717.7kbits/s speed=3.55x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 799500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 814500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 822000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 825000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 3 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 831000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    3584kB time=00:00:07.85 bitrate=3740.1kbits/s speed=3.04x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 846000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 852000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 853500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 855000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 861000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 862500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 867000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 870000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 877500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 879000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    3840kB time=00:00:08.35 bitrate=3767.3kbits/s speed= 2.7x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 885000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 888000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 891000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 900000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 907500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 909000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 915000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 918000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 922500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 924000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    4096kB time=00:00:08.85 bitrate=3791.5kbits/s speed=2.46x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 928500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 931500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 934500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 936000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 952500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 954000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 958500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 960000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 961500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 966000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 967500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    4096kB time=00:00:09.31 bitrate=3601.5kbits/s speed=2.25x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 970500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 975000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 978000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 982500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 987000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 988500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 990000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 991500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1003500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1006500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1009500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1012500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1020000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    4608kB time=00:00:09.91 bitrate=3806.6kbits/s speed=2.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1026000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1035000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1041000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1045500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1051500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1059000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1060500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1063500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1066500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1068000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    4864kB time=00:00:10.43 bitrate=3819.1kbits/s speed=   2x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1086000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1092000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1099500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1105500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1111500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1113000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    5120kB time=00:00:10.93 bitrate=3836.3kbits/s speed= 1.9x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1119000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1120500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1122000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1125000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1134000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1141500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1149000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1153500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1156500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1158000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    5376kB time=00:00:11.51 bitrate=3824.0kbits/s speed=1.84x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1167000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1171500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1179000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1186500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1194000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1195500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1206000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1207500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1210500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    5632kB time=00:00:12.03 bitrate=3834.1kbits/s speed=1.77x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1215000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1218000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1221000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1230000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1245000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1260000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    5888kB time=00:00:12.58 bitrate=3833.2kbits/s speed=1.72x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1264500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1266000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1269000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1275000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1279500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1282500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1288500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1290000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1296000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1302000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1305000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    5888kB time=00:00:13.08 bitrate=3686.7kbits/s speed=1.67x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1309500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1314000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1326000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1327500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1330500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1333500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1335000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1339500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    6144kB time=00:00:13.46 bitrate=3737.5kbits/s speed=1.61x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1342500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1347000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1354500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1357500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1362000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1363500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1369500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1372500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1377000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1383000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1389000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    6656kB time=00:00:14.00 bitrate=3894.7kbits/s speed=1.57x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1395000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1396500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1404000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1407000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1408500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1411500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1414500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1416000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1420500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1425000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1428000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1431000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1432500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1435500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1446000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1447500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    6912kB time=00:00:14.65 bitrate=3865.1kbits/s speed=1.56x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1450500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1455000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1459500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1465500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1468500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1476000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1485000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1492500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    6912kB time=00:00:15.16 bitrate=3733.4kbits/s speed=1.53x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1497000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1500000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1503000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1507500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1515000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1516500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1522500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1530000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1537500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1540500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    7168kB time=00:00:15.68 bitrate=3744.1kbits/s speed=1.51x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1545000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1551000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1566000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1569000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1573500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1581000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    7424kB time=00:00:16.13 bitrate=3769.7kbits/s speed=1.48x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1588500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1596000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1605000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1609500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1612500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1621500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1627500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    7680kB time=00:00:16.68 bitrate=3771.1kbits/s speed=1.46x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1636500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1647000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1651500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1657500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1660500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1668000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1672500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1675500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    7680kB time=00:00:17.20 bitrate=3657.8kbits/s speed=1.44x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1678500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1687500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1693500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1695000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1698000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1701000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1702500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1705500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1708500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1714500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1719000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    7936kB time=00:00:17.68 bitrate=3676.4kbits/s speed=1.42x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1722000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1728000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1741500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1743000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1749000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1750500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1755000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1768500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    8192kB time=00:00:18.21 bitrate=3683.9kbits/s speed=1.41x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1776000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1782000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1789500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1795500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1800000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1806000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1807500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1812000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=    8448kB time=00:00:18.71 bitrate=3697.6kbits/s speed=1.39x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1815000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1816500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1822500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1825500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1830000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1836000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1843500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1846500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1849500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1855500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1857000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    8704kB time=00:00:19.21 bitrate=3710.5kbits/s speed=1.37x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1864500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1866000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1872000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1875000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1879500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1887000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1890000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1894500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1897500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1902000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    8960kB time=00:00:19.75 bitrate=3716.5kbits/s speed=1.36x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1908000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1911000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1915500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1923000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1927500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1933500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1936500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1938000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1941000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1944000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1951500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    9216kB time=00:00:20.26 bitrate=3725.2kbits/s speed=1.35x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1954500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1963500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1971000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1978500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1984500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1986000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1989000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1990500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1993500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 1999500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    9472kB time=00:00:20.80 bitrate=3730.5kbits/s speed=1.34x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2020500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2034000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2041500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2046000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2049000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=    9728kB time=00:00:21.31 bitrate=3738.5kbits/s speed=1.32x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2053500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2055000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2056500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2061000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2068500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2071500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2073000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2082000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2088000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2091000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2094000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2095500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2098500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   10240kB time=00:00:21.93 bitrate=3824.6kbits/s speed=1.31x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2106000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2109000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2115000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2122500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2128500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2142000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2149500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   10496kB time=00:00:22.46 bitrate=3827.1kbits/s speed=1.31x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2157000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2167500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2175000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2187000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2190000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2197500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   10496kB time=00:00:23.00 bitrate=3738.4kbits/s speed= 1.3x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2203500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2218500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2224500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2232000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2233500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2239500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   10752kB time=00:00:23.51 bitrate=3745.4kbits/s speed=1.29x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2247000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2248500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2260500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2263500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2269500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2271000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2272500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2274000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2277000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2284500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2287500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2289000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   11008kB time=00:00:24.00 bitrate=3757.4kbits/s speed=1.28x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2296500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2304000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2311500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2319000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2320500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2326500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2331000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   11264kB time=00:00:24.55 bitrate=3758.6kbits/s speed=1.27x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2340000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2343000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2347500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2352000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2361000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2362500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2367000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2371500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2376000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2377500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   11520kB time=00:00:24.98 bitrate=3777.4kbits/s speed=1.26x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2380500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2383500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2386500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2392500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2406000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2410500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2413500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2415000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2416500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2421000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2424000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2427000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2428500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2430000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   11776kB time=00:00:25.56 bitrate=3773.2kbits/s speed=1.26x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2431500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2434500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2437500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2439000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2442000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2445000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2448000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2452500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2455500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2461500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2464500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2469000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+size=   12032kB time=00:00:26.01 bitrate=3788.6kbits/s speed=1.25x    [in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2479500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2482500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2484000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2485500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2488500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2491500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2494500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2496000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2497500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2502000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2505000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2508000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2512500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2515500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2520000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2523000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   12288kB time=00:00:26.61 bitrate=3782.0kbits/s speed=1.24x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2526000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2535000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2536500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2539500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2541000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2545500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2548500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2551500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2553000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2557500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2563500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   12544kB time=00:00:27.15 bitrate=3784.9kbits/s speed=1.24x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2575500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2578500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2581500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2586000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2592000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2599500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2604000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2611500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   12800kB time=00:00:27.66 bitrate=3790.0kbits/s speed=1.24x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2620500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2623500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2631000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2635500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2647500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2652000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2656500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2664000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   13056kB time=00:00:28.16 bitrate=3797.2kbits/s speed=1.23x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2667000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2668500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2670000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2674500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2676000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2680500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2682000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2683500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2686500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2689500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2691000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2694000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2698500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2703000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2704500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2706000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   13056kB time=00:00:28.65 bitrate=3733.2kbits/s speed=1.22x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2716500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2721000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2722500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2725500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2730000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2731500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2734500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2736000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2740500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2751000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   13312kB time=00:00:29.20 bitrate=3734.7kbits/s speed=1.22x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2764500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2766000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2767500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2769000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2773500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2779500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2787000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2788500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2790000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2794500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2797500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   13568kB time=00:00:29.71 bitrate=3740.3kbits/s speed=1.22x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2808000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2811000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2815500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2824500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2827500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2829000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2838000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   13824kB time=00:00:30.18 bitrate=3751.9kbits/s speed=1.21x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2847000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2850000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2853000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2871000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2872500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2886000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2895000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   14080kB time=00:00:30.73 bitrate=3753.0kbits/s speed=1.21x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2898000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2902500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2916000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2919000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2929500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2938500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   14336kB time=00:00:31.28 bitrate=3754.1kbits/s speed= 1.2x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2949000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2961000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2964000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2970000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2973000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2983500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2986500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   14592kB time=00:00:31.76 bitrate=3763.0kbits/s speed= 1.2x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2991000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 2997000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3007500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3012000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3015000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3024000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3028500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3031500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   14848kB time=00:00:32.26 bitrate=3769.7kbits/s speed=1.19x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3037500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3039000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3042000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3046500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3055500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3058500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3060000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3064500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3067500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3070500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3075000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3078000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   15104kB time=00:00:32.78 bitrate=3774.2kbits/s speed=1.19x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3085500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3088500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3090000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3091500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3094500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3100500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3106500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3112500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3118500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3126000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   15360kB time=00:00:33.30 bitrate=3778.7kbits/s speed=1.19x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3130500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3133500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3154500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3159000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3163500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3166500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   15872kB time=00:00:33.80 bitrate=3846.8kbits/s speed=1.18x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3172500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3177000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3180000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3181500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3186000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3190500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3196500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3198000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3205500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3208500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3213000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3216000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   16128kB time=00:00:34.30 bitrate=3851.9kbits/s speed=1.18x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3220500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3222000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3226500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3231000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3246000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3250500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3258000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   16384kB time=00:00:34.78 bitrate=3858.7kbits/s speed=1.18x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3261000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3267000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3271500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3276000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3280500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3285000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3288000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3292500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3295500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3301500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3303000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3306000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   16640kB time=00:00:35.31 bitrate=3859.8kbits/s speed=1.17x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3310500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3319500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3322500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3325500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3328500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3333000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3334500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3340500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3348000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3351000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   16896kB time=00:00:35.81 bitrate=3864.5kbits/s speed=1.17x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3354000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3355500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3367500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3372000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3373500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3376500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3378000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3381000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 3 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3388500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3391500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   17152kB time=00:00:36.26 bitrate=3874.3kbits/s speed=1.17x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3394500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3400500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3403500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3411000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3417000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3418500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3423000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3429000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3430500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3432000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3438000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3442500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   17408kB time=00:00:36.83 bitrate=3871.7kbits/s speed=1.17x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3445500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3450000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3456000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3457500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3465000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3468000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3471000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3475500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3481500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3486000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3487500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   17664kB time=00:00:37.31 bitrate=3877.7kbits/s speed=1.16x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3493500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3495000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3496500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3501000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3508500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3511500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3514500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3522000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3528000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3535500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3537000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   17920kB time=00:00:37.88 bitrate=3875.1kbits/s speed=1.16x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3541500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3546000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3555000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3558000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3565500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3567000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3571500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3573000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3576000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3577500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3582000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   18176kB time=00:00:38.38 bitrate=3879.2kbits/s speed=1.16x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3586500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3589500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3595500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3598500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3600000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3606000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3607500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3612000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3615000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3618000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3621000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   18432kB time=00:00:38.81 bitrate=3890.0kbits/s speed=1.15x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3628500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3630000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3636000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3639000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3643500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3646500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3657000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3664500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3672000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3675000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   18688kB time=00:00:39.41 bitrate=3883.9kbits/s speed=1.15x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3679500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3687000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3694500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3697500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3702000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3709500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3717000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   18944kB time=00:00:39.95 bitrate=3884.6kbits/s speed=1.15x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3727500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3729000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3736500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3741000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3742500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3747000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3759000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3762000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3763500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3766500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3771000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   19200kB time=00:00:40.48 bitrate=3885.2kbits/s speed=1.15x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3774000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3775500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3780000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3786000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3790500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3793500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3799500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3802500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3805500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3807000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3811500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3813000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+size=   19200kB time=00:00:40.95 bitrate=3840.9kbits/s speed=1.15x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3822000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3823500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3826500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3829500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3832500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3834000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3841500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3844500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3846000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3853500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3855000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   19456kB time=00:00:41.41 bitrate=3848.3kbits/s speed=1.14x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3861000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3865500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3868500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3871500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3874500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3879000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3882000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3888000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3892500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3895500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3898500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3903000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3907500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   19712kB time=00:00:42.01 bitrate=3843.3kbits/s speed=1.14x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3913500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3918000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3925500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3928500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3931500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3936000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3940500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3943500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3948000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3949500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3954000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3955500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   19968kB time=00:00:42.51 bitrate=3847.4kbits/s speed=1.14x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3960000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3966000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3967500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3975000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3978000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3979500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3981000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3982500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3988500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   20224kB time=00:00:42.88 bitrate=3863.4kbits/s speed=1.14x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3993000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 3996000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4003500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4009500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4012500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4023000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4026000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4030500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4038000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   20736kB time=00:00:43.45 bitrate=3909.5kbits/s speed=1.14x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4048500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4053000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4059000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4066500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4072500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4080000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4087500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   20992kB time=00:00:44.00 bitrate=3908.3kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4090500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4093500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4096500).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4099500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4104000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4107000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4111500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4113000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4117500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4120500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4123500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4131000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4138500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   21248kB time=00:00:44.55 bitrate=3907.2kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4144500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4146000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4155000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4158000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4165500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4171500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4176000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4177500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   21248kB time=00:00:44.98 bitrate=3869.5kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4182000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4192500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4198500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4206000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4207500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4213500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4216500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4218000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4221000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4224000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   21760kB time=00:00:45.51 bitrate=3916.3kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4228500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4233000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4240500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4248000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4255500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4258500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4261500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4266000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4269000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4275000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   22016kB time=00:00:46.08 bitrate=3913.7kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4278000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4282500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4287000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4291500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4296000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4302000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4309500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4312500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4320000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   22272kB time=00:00:46.60 bitrate=3915.3kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4326000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4329000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4330500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4335000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4336500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4342500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4344000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4350000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4354500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4356000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4359000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4363500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4366500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4369500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   22528kB time=00:00:47.11 bitrate=3916.9kbits/s speed=1.13x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4375500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4383000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4396500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4402500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4407000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4410000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4414500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   22528kB time=00:00:47.61 bitrate=3875.7kbits/s speed=1.12x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4416000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4423500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4429500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4434000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4437000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4447500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4449000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4456500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   22784kB time=00:00:48.10 bitrate=3880.4kbits/s speed=1.12x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4464000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4476000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4477500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4483500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4491000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4494000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4498500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4506000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   23040kB time=00:00:48.63 bitrate=3881.0kbits/s speed=1.12x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4513500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4518000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4519500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4521000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4522500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4528500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4531500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4536000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4543500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4548000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4551000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   23040kB time=00:00:49.15 bitrate=3840.2kbits/s speed=1.12x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4555500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4558500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4566000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4570500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4573500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4575000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4576500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4579500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4584000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   23552kB time=00:00:49.51 bitrate=3896.4kbits/s speed=1.12x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4587000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4590000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4591500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4593000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4594500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4599000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4600500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4602000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4605000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4606500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4608000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4611000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4614000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4615500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4620000).
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4621500).
+[NULL @ 0x5dfdd04b6280] non-existing SPS 5 referenced in buffering period
+[NULL @ 0x5dfdd04b6280] SEI type 210 size 174 truncated at 65
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   23808kB time=00:00:49.93 bitrate=3905.9kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4626000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4632000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4635000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4636500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4642500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4647000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4651500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4656000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4659000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4660500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4665000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4669500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4672500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4677000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4678500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4683000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   24064kB time=00:00:50.60 bitrate=3895.9kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4684500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4686000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4690500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4696500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4699500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4702500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4705500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4707000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4711500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4713000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4717500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4723500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4728000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4731000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4737000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   24320kB time=00:00:51.20 bitrate=3891.2kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4741500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4744500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4750500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4753500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4759500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4767000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4768500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4774500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4782000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   24576kB time=00:00:51.71 bitrate=3892.9kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4786500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4791000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4794000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4807500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4812000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4813500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4818000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4819500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   24832kB time=00:00:52.11 bitrate=3903.2kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4821000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4824000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4827000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4830000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4833000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4839000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4840500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4845000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4849500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4857000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4863000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4869000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   25344kB time=00:00:52.68 bitrate=3940.9kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4872000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4878000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4881000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4884000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4894500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4897500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4900500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4903500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4908000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   25600kB time=00:00:53.26 bitrate=3937.1kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4927500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4930500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4936500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4938000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4939500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4945500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4953000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4962000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4965000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4968000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   25856kB time=00:00:53.78 bitrate=3938.3kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4971000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4974000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4980000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4984500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4987500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4993500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 4995000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5001000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5005500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5013000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5016000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   26112kB time=00:00:54.30 bitrate=3939.4kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5026500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5029500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5040000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5044500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5047500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5055000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5061000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   26368kB time=00:00:54.81 bitrate=3940.5kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5068500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5071500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5073000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5076000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5077500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5085000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5086500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5092500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5101500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   26624kB time=00:00:55.33 bitrate=3941.6kbits/s speed=1.11x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5112000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5115000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5122500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5130000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5137500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5145000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5152500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   26880kB time=00:00:55.83 bitrate=3943.9kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5158500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5167500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5175000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5176500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5178000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5182500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5188500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5191500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5194500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5196000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   27136kB time=00:00:56.36 bitrate=3943.8kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5209500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5211000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5215500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5220000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5223000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5230500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5233500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5238000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5241000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5245500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   27392kB time=00:00:56.86 bitrate=3946.0kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5251500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5253000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5254500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5257500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5259000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5265000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5269500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5272500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5275500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5278500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5280000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5287500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   27648kB time=00:00:57.33 bitrate=3950.4kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5292000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5296500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5298000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5299500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5302500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5308500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5313000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5314500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5316000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5319000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5320500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5323500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5326500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5332500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   28160kB time=00:00:57.91 bitrate=3983.1kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5347500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5353500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5362500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5373000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5386500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   28160kB time=00:00:58.43 bitrate=3947.9kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5391000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5392500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5406000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5415000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5422500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5430000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   28416kB time=00:00:58.96 bitrate=3947.7kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5445000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5451000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5452500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5467500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5472000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5473500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   28672kB time=00:00:59.46 bitrate=3949.8kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5482500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5490000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5491500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5497500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5500500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5512500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5526000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+size=   28928kB time=00:00:59.98 bitrate=3950.7kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5533500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5538000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5547000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5554500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5562000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5569500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   29184kB time=00:01:00.53 bitrate=3949.5kbits/s speed= 1.1x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5580000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5584500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5592000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5599500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5607000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5608500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5614500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5622000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   29184kB time=00:01:01.03 bitrate=3917.1kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5625000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5629500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5637000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5647500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5649000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5652000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5655000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5659500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   29440kB time=00:01:01.46 bitrate=3923.6kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5662500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5668500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5673000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5679000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5682000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5685000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5688000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5689500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5698500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5701500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5704500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5709000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   29952kB time=00:01:02.01 bitrate=3956.5kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5713500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5716500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5719500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5721000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5725500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5736000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5740500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5746500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5752500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5761500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   30208kB time=00:01:02.60 bitrate=3953.1kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5766000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5770500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5775000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5782500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5785500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5790000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   30464kB time=00:01:03.11 bitrate=3954.0kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5812500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5815500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5827500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5850000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   30464kB time=00:01:03.63 bitrate=3921.9kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5865000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5883000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5886000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5887500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   30720kB time=00:01:04.00 bitrate=3932.2kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5892000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5896500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5898000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5899500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5902500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5907000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5911500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5913000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5916000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5920500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5925000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5934000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5935500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   31232kB time=00:01:04.51 bitrate=3965.7kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5940000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5943000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5949000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5956500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5961000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5965500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5970000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5976000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5985000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5988000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   31488kB time=00:01:05.11 bitrate=3961.3kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 5991000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6004500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6007500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6013500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6019500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6022500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6028500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6034500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   31744kB time=00:01:05.63 bitrate=3962.1kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6039000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6046500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6054000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6061500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6066000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6076500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6081000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   32000kB time=00:01:06.15 bitrate=3962.9kbits/s speed=1.09x    [mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6084000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6087000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6099000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6102000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6106500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6114000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6121500).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+[mpegts @ 0x5dfdd048ee80] Packet corrupt (stream = 0, dts = 6123000).
+[in#0/mpegts @ 0x5dfdd048ed80] corrupt input packet in stream 0
+size=   32256kB time=00:01:06.68 bitrate=3962.6kbits/s speed=1.09x    

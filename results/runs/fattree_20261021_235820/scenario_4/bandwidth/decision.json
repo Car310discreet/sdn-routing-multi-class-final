@@ -1,0 +1,59 @@
+{
+  "paradigm": "bandwidth",
+  "stage1": {
+    "method": "bandwidth",
+    "src": "s12",
+    "dst": "s18",
+    "k": 1,
+    "max_hops": 8,
+    "compute_ms": 4.5863,
+    "weights": {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "gamma": 0.4,
+      "delta": 0.2
+    },
+    "paths": [
+      {
+        "switches": [
+          "s12",
+          "s5",
+          "s2",
+          "s11",
+          "s18"
+        ],
+        "cost": -6.1364,
+        "composite_cost": 2.121862,
+        "hops": 4,
+        "delay_ms": 66.0,
+        "bottleneck_mbps": 6.136
+      }
+    ]
+  },
+  "candidates_ground_truth": [
+    {
+      "bottleneck_load": 0.3757,
+      "class": 1,
+      "class_name": "Low"
+    }
+  ],
+  "timing": {
+    "telemetry_s": 18.92,
+    "stage1_ms": 4.5863,
+    "stage2_inference_ms": 0.0,
+    "stage2_probe_s": 0.0,
+    "route_install_ms": 196.785
+  },
+  "chosen_path": [
+    "s12",
+    "s5",
+    "s2",
+    "s11",
+    "s18"
+  ],
+  "chosen_ground_truth": {
+    "bottleneck_load": 0.3757,
+    "class": 1,
+    "class_name": "Low"
+  }
+}

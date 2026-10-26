@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+
+# experiment run outputs
+output_*.txt
+output_*_video.json
+/sender.log
+/receiver.log
+
+# raw run data (videos, logs)
+results/baseline/
+results/extension/
+results/advanced/

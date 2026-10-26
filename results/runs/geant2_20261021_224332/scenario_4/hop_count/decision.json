@@ -1,0 +1,63 @@
+{
+  "paradigm": "hop_count",
+  "stage1": {
+    "method": "hop",
+    "src": "s15",
+    "dst": "s23",
+    "k": 1,
+    "max_hops": 10,
+    "compute_ms": 6.4931,
+    "weights": {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "gamma": 0.4,
+      "delta": 0.2
+    },
+    "paths": [
+      {
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "cost": 6.0,
+        "composite_cost": 4.2,
+        "hops": 6,
+        "delay_ms": 60.0,
+        "bottleneck_mbps": 10.0
+      }
+    ]
+  },
+  "candidates_ground_truth": [
+    {
+      "bottleneck_load": 1.0,
+      "class": 3,
+      "class_name": "Extremely High"
+    }
+  ],
+  "timing": {
+    "telemetry_s": 0.0,
+    "stage1_ms": 6.4931,
+    "stage2_inference_ms": 0.0,
+    "stage2_probe_s": 0.0,
+    "route_install_ms": 385.51
+  },
+  "chosen_path": [
+    "s15",
+    "s14",
+    "s11",
+    "s8",
+    "s12",
+    "s19",
+    "s23"
+  ],
+  "chosen_ground_truth": {
+    "bottleneck_load": 1.0,
+    "class": 3,
+    "class_name": "Extremely High"
+  }
+}

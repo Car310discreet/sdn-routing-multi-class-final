@@ -1,0 +1,21 @@
+[bottleneck_load] is highly overall correlated with [bw_utilization_pct] and 9 other fields
+[rtt_avg_ms] is highly overall correlated with [bottleneck_load] and 8 other fields
+[rtt_min_ms] is highly overall correlated with [bottleneck_load] and 8 other fields
+[rtt_max_ms] is highly overall correlated with [bottleneck_load] and 8 other fields
+[packet_loss_pct] is highly overall correlated with [bottleneck_load] and 7 other fields
+[throughput_mbps] is highly overall correlated with [bottleneck_load] and 9 other fields
+[bw_utilization_pct] is highly overall correlated with [bottleneck_load] and 9 other fields
+[path_max_link_util_pct] is highly overall correlated with [bottleneck_load] and 9 other fields
+[path_mean_link_util_pct] is highly overall correlated with [bottleneck_load] and 6 other fields
+[rtt_mdev_ms] is highly overall correlated with [rtt_avg_ms] and 2 other fields
+[hop_count] is highly overall correlated with [rtt_avg_ms] and 2 other fields
+[traffic_class] is highly overall correlated with [bottleneck_load] and 5 other fields
+[traffic_class_name] is highly overall correlated with [bottleneck_load] and 5 other fields
+[retransmits] is highly imbalanced (0.9534930512738055)
+[traffic_class] is uniformly distributed
+[traffic_class_name] is uniformly distributed
+[path_mean_link_util_pct] has unique values
+[epoch] has 8 (1.6%) zeros
+[rtt_mdev_ms] has 17 (3.4%) zeros
+[packet_loss_pct] has 419 (83.8%) zeros
+[throughput_mbps] has 84 (16.8%) zeros

@@ -1,0 +1,396 @@
+{
+  "paradigm": "baseline",
+  "stage1": {
+    "method": "hop",
+    "src": "s15",
+    "dst": "s23",
+    "k": 5,
+    "max_hops": 10,
+    "compute_ms": 21.2172,
+    "weights": {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "gamma": 0.4,
+      "delta": 0.2
+    },
+    "paths": [
+      {
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "cost": 6.0,
+        "composite_cost": 2401.578754,
+        "hops": 6,
+        "delay_ms": 7336.0,
+        "bottleneck_mbps": 0.0
+      },
+      {
+        "switches": [
+          "s15",
+          "s16",
+          "s17",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "cost": 6.0,
+        "composite_cost": 1202.24215,
+        "hops": 6,
+        "delay_ms": 3830.0,
+        "bottleneck_mbps": 0.0
+      },
+      {
+        "switches": [
+          "s15",
+          "s16",
+          "s17",
+          "s18",
+          "s21",
+          "s22",
+          "s23"
+        ],
+        "cost": 6.0,
+        "composite_cost": 2.782872,
+        "hops": 6,
+        "delay_ms": 103.0,
+        "bottleneck_mbps": 7.59
+      },
+      {
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s7",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "cost": 7.0,
+        "composite_cost": 2002.64423,
+        "hops": 7,
+        "delay_ms": 6178.0,
+        "bottleneck_mbps": 0.0
+      },
+      {
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s8",
+          "s18",
+          "s21",
+          "s22",
+          "s23"
+        ],
+        "cost": 7.0,
+        "composite_cost": 1602.36541,
+        "hops": 7,
+        "delay_ms": 4764.0,
+        "bottleneck_mbps": 0.0
+      }
+    ]
+  },
+  "candidates_ground_truth": [
+    {
+      "bottleneck_load": 1.0,
+      "class": 3,
+      "class_name": "Extremely High"
+    },
+    {
+      "bottleneck_load": 1.0,
+      "class": 3,
+      "class_name": "Extremely High"
+    },
+    {
+      "bottleneck_load": 0.234,
+      "class": 0,
+      "class_name": "Extremely Low"
+    },
+    {
+      "bottleneck_load": 1.0,
+      "class": 3,
+      "class_name": "Extremely High"
+    },
+    {
+      "bottleneck_load": 1.0642,
+      "class": 3,
+      "class_name": "Extremely High"
+    }
+  ],
+  "timing": {
+    "telemetry_s": 19.05,
+    "stage1_ms": 21.2172,
+    "stage2_inference_ms": 450.2956,
+    "stage2_probe_s": 191.63,
+    "probe_install_ms": 3401.4047,
+    "probe_remove_ms": 3499.4897,
+    "ping_s": 32.9254,
+    "iperf_s": 148.699,
+    "drain_s": 10.0018,
+    "assembly_ms": 0.1414,
+    "inference_ms": 450.2956,
+    "select_ms": 0.0068,
+    "route_install_ms": 381.277
+  },
+  "stage2": {
+    "model": "ensemble",
+    "chosen_rank": 2,
+    "chosen": [
+      "s15",
+      "s16",
+      "s17",
+      "s18",
+      "s21",
+      "s22",
+      "s23"
+    ],
+    "probe_s": 191.63,
+    "inference_ms": 450.2956,
+    "scored": [
+      {
+        "rank_in_stage1": 0,
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "composite_cost": 2401.578754,
+        "features": {
+          "rtt_avg_ms": 5000.0,
+          "rtt_min_ms": 5000.0,
+          "rtt_max_ms": 5000.0,
+          "rtt_mdev_ms": 0.0,
+          "packet_loss_pct": 100.0,
+          "throughput_mbps": 0.0,
+          "bw_utilization_pct": 100.0,
+          "retransmits": 0.0,
+          "hop_count": 6.0,
+          "path_max_link_util_pct": 100.179,
+          "path_mean_link_util_pct": 100.0225
+        },
+        "predicted_class": 3,
+        "predicted_name": "Extremely High",
+        "probabilities": [
+          0.0064,
+          0.002,
+          0.0023,
+          0.9893
+        ],
+        "probe_s": 45.13,
+        "timing": {
+          "probe_install_ms": 743.06,
+          "probe_remove_ms": 626.1234,
+          "ping_s": 7.5686,
+          "iperf_s": 35.5587,
+          "drain_s": 2.0007
+        }
+      },
+      {
+        "rank_in_stage1": 1,
+        "switches": [
+          "s15",
+          "s16",
+          "s17",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "composite_cost": 1202.24215,
+        "features": {
+          "rtt_avg_ms": 7169.367,
+          "rtt_min_ms": 7150.432,
+          "rtt_max_ms": 7186.609,
+          "rtt_mdev_ms": 12.31,
+          "packet_loss_pct": 90.0,
+          "throughput_mbps": 0.0,
+          "bw_utilization_pct": 100.0,
+          "retransmits": 0.0,
+          "hop_count": 6.0,
+          "path_max_link_util_pct": 100.1786,
+          "path_mean_link_util_pct": 58.6445
+        },
+        "predicted_class": 3,
+        "predicted_name": "Extremely High",
+        "probabilities": [
+          0.0067,
+          0.002,
+          0.0023,
+          0.989
+        ],
+        "probe_s": 45.1,
+        "timing": {
+          "probe_install_ms": 566.1895,
+          "probe_remove_ms": 623.0744,
+          "ping_s": 7.5451,
+          "iperf_s": 35.5499,
+          "drain_s": 2.0003
+        }
+      },
+      {
+        "rank_in_stage1": 2,
+        "switches": [
+          "s15",
+          "s16",
+          "s17",
+          "s18",
+          "s21",
+          "s22",
+          "s23"
+        ],
+        "composite_cost": 2.782872,
+        "features": {
+          "rtt_avg_ms": 120.885,
+          "rtt_min_ms": 120.087,
+          "rtt_max_ms": 123.724,
+          "rtt_mdev_ms": 1.169,
+          "packet_loss_pct": 0.0,
+          "throughput_mbps": 6.7553,
+          "bw_utilization_pct": 32.4473,
+          "retransmits": 0.0,
+          "hop_count": 6.0,
+          "path_max_link_util_pct": 24.1032,
+          "path_mean_link_util_pct": 14.5611
+        },
+        "predicted_class": 0,
+        "predicted_name": "Extremely Low",
+        "probabilities": [
+          0.9608,
+          0.0337,
+          0.0037,
+          0.0019
+        ],
+        "probe_s": 12.32,
+        "timing": {
+          "probe_install_ms": 609.6871,
+          "probe_remove_ms": 622.4594,
+          "ping_s": 2.641,
+          "iperf_s": 7.6799,
+          "drain_s": 2.0001
+        }
+      },
+      {
+        "rank_in_stage1": 3,
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s7",
+          "s8",
+          "s12",
+          "s19",
+          "s23"
+        ],
+        "composite_cost": 2002.64423,
+        "features": {
+          "rtt_avg_ms": 5000.0,
+          "rtt_min_ms": 5000.0,
+          "rtt_max_ms": 5000.0,
+          "rtt_mdev_ms": 0.0,
+          "packet_loss_pct": 100.0,
+          "throughput_mbps": 0.0,
+          "bw_utilization_pct": 100.0,
+          "retransmits": 0.0,
+          "hop_count": 7.0,
+          "path_max_link_util_pct": 100.1786,
+          "path_mean_link_util_pct": 82.3069
+        },
+        "predicted_class": 3,
+        "predicted_name": "Extremely High",
+        "probabilities": [
+          0.0063,
+          0.002,
+          0.0023,
+          0.9895
+        ],
+        "probe_s": 43.91,
+        "timing": {
+          "probe_install_ms": 702.7942,
+          "probe_remove_ms": 833.3335,
+          "ping_s": 7.5528,
+          "iperf_s": 34.3575,
+          "drain_s": 2.0006
+        }
+      },
+      {
+        "rank_in_stage1": 4,
+        "switches": [
+          "s15",
+          "s14",
+          "s11",
+          "s8",
+          "s18",
+          "s21",
+          "s22",
+          "s23"
+        ],
+        "composite_cost": 1602.36541,
+        "features": {
+          "rtt_avg_ms": 5000.0,
+          "rtt_min_ms": 5000.0,
+          "rtt_max_ms": 5000.0,
+          "rtt_mdev_ms": 0.0,
+          "packet_loss_pct": 100.0,
+          "throughput_mbps": 0.0,
+          "bw_utilization_pct": 100.0,
+          "retransmits": 0.0,
+          "hop_count": 7.0,
+          "path_max_link_util_pct": 100.179,
+          "path_mean_link_util_pct": 62.1832
+        },
+        "predicted_class": 3,
+        "predicted_name": "Extremely High",
+        "probabilities": [
+          0.0062,
+          0.002,
+          0.0023,
+          0.9896
+        ],
+        "probe_s": 45.17,
+        "timing": {
+          "probe_install_ms": 779.6739,
+          "probe_remove_ms": 794.499,
+          "ping_s": 7.6179,
+          "iperf_s": 35.553,
+          "drain_s": 2.0001
+        }
+      }
+    ],
+    "timing": {
+      "probe_install_ms": 3401.4047,
+      "probe_remove_ms": 3499.4897,
+      "ping_s": 32.9254,
+      "iperf_s": 148.699,
+      "drain_s": 10.0018,
+      "assembly_ms": 0.1414,
+      "inference_ms": 450.2956,
+      "select_ms": 0.0068
+    }
+  },
+  "chosen_path": [
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s21",
+    "s22",
+    "s23"
+  ],
+  "chosen_ground_truth": {
+    "bottleneck_load": 0.234,
+    "class": 0,
+    "class_name": "Extremely Low"
+  }
+}

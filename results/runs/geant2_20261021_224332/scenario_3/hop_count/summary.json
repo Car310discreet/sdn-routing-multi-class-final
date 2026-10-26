@@ -1,0 +1,16 @@
+{
+  "paradigm": "hop_count",
+  "duration_s": 67.19,
+  "mean_rtt_ms": 13542.3,
+  "mean_jitter_ms": 18.857,
+  "mean_throughput_mbps": 0.774,
+  "packets_sent": 27723,
+  "packets_received": 5012,
+  "packet_loss_pct": 81.921,
+  "frames_reference": 4007,
+  "frames_decoded": 1052,
+  "psnr_db": 14.835619,
+  "ssim": 0.743933,
+  "psnr_frame_mean_db": 15.969,
+  "ssim_frame_mean": 0.744
+}

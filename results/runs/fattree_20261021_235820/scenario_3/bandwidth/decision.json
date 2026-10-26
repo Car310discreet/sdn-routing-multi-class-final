@@ -1,0 +1,59 @@
+{
+  "paradigm": "bandwidth",
+  "stage1": {
+    "method": "bandwidth",
+    "src": "s12",
+    "dst": "s18",
+    "k": 1,
+    "max_hops": 8,
+    "compute_ms": 7.3601,
+    "weights": {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "gamma": 0.4,
+      "delta": 0.2
+    },
+    "paths": [
+      {
+        "switches": [
+          "s12",
+          "s5",
+          "s2",
+          "s11",
+          "s18"
+        ],
+        "cost": -0.0,
+        "composite_cost": 401.73251,
+        "hops": 4,
+        "delay_ms": 1236.0,
+        "bottleneck_mbps": 0.0
+      }
+    ]
+  },
+  "candidates_ground_truth": [
+    {
+      "bottleneck_load": 1.0845,
+      "class": 3,
+      "class_name": "Extremely High"
+    }
+  ],
+  "timing": {
+    "telemetry_s": 19.04,
+    "stage1_ms": 7.3601,
+    "stage2_inference_ms": 0.0,
+    "stage2_probe_s": 0.0,
+    "route_install_ms": 204.802
+  },
+  "chosen_path": [
+    "s12",
+    "s5",
+    "s2",
+    "s11",
+    "s18"
+  ],
+  "chosen_ground_truth": {
+    "bottleneck_load": 1.0845,
+    "class": 3,
+    "class_name": "Extremely High"
+  }
+}
